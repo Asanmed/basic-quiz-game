@@ -90,7 +90,7 @@ function fillDom() {
   QUESTION_P.innerHTML = data.question;
   correctAnswer = data.correctAnswer;
   for (let i = 0; i < ANSWERS.length; i++) {
-    ANSWERS[i].textContent = data.answers[i];
+    ANSWERS[i].innerHTML = data.answers[i];
   }
 }
 
